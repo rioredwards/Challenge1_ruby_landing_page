@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #25788d;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  min-width: 60rem;
+}
+
+.hero_text {
+  color: #1b6697;
+}
+
+.hero_text_container {
+  position: absolute;
+  top: 10rem;
+  left: calc(50% - 15rem);
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero_text_container_main {
+  word-wrap: break-word;
+}
+
+.hero_text_container_secondary p {
+  font-size: 1.4rem;
+  text-align: end;
+}
+
+.img_container {
+  max-height: 90vh;
+  overflow-y: hidden;
+}
+
+.supporting_text {
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.supporting_text p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
